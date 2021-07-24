@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1{
+    font-family: 'Lobster', cursive;
+}
+.piano-btn{
+    height: 20vh;
+    width: 5vh;
+}
+.body{
+    background: rgb(121,253,255);
+    background: linear-gradient(180deg, rgba(121,253,255,1) 0%, rgba(63,239,255,1) 11%, rgba(107,244,255,1) 36%, rgba(253,109,255,1) 65%);
+    width: 60vh;
+}
+.form-control{
+    width: 40vh !important;
+    height: 8vh !important;
+    font-size: 1.5rem !important;
+    border: 5px solid #FD6DFF !important;
+    background-color: #0C2D77 !important;
+    color: #FD6DFF !important;
+
+}
+
+.btn-primary{
+    font-size: 0.7rem !important;
+    background: rgb(107,181,255) !important;
+    background: linear-gradient(180deg,  rgba(12,45,119,1) 0%, rgba(107,181,255,1) 65%) !important;
+
+}
+.btn-primary:hover{
+    background: rgb(107,181,255) !important;
+    background: linear-gradient(180deg, rgba(107,181,255,1) 0%, rgba(12,45,119,1) 65%) !important;
+    transform: scale(1.05);
+    transition: 0.5s ;
+
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgba(0, 105, 217, 0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+.play-list{
+    width: 40vh;
+    height: 30vh;
+    background-color: #6BB5FF;
+    border-radius: .25rem;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: unset;
+}
+li{
+    width: 100px;
+}
+
